@@ -9,7 +9,7 @@ public class TransformerTester {
 	
 	public static void main(String[] args) {
 		
-		TransformerDTO dto = new TransformerDTO("Sunil","Chikmagalur",CharacterType.SMILING,"Sometimes","abcdefg","gsfvehk","khhgdgdg");
+		TransformerDTO dto = new TransformerDTO("Sunil","Chikmagalur",CharacterType.SMILING,"Sometimes","Always Happy","never","Playing cricket and travelling");
 		
 		TransformerService service = new TransformerServiceImpl();
 		String save = service.validateAndSave(dto);
